@@ -17,14 +17,14 @@ let numero2 = (prompt("Ingrese el segundo número entero: "));
 let numero3 = (prompt("Ingrese el tercer número entero: "));
 
  if(numero1 % 2 === 0){
-console.log(numero1, "es un número par.");
+    console.log(numero1, "es un número par.");
 } else{
-console.log(numero1, "es un número impar.");
+    console.log(numero1, "es un número impar.");
 }
 
 
 if(numero2 % 2 === 0){
-console.log(numero2, "es un número par.");
+    console.log(numero2, "es un número par.");
 } else{
     console.log(numero2, "es un número impar.");
 }
