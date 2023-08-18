@@ -22,3 +22,10 @@
 // investigue y busque como utilizarla.
 
 // En cada caso imprimir en pantalla el resultado
+
+let numero1 = (prompt("Ingrese el primer valor de temperatura: "));
+let numero2 = (prompt("Ingrese el segundo valor de temperatura: "));
+let numero3 = (prompt("Ingrese el tercer valor de temperatura: "));
+
+console.log("La temperatura máxima es:", (Math.max(numero1, numero2, numero3)));
+console.log("La temperatura mínima es:", (Math.min(numero1, numero2, numero3)));
